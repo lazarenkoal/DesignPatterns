@@ -1,6 +1,8 @@
 package BehavioralPatterns.TemplateMethod;
 
 /**
+ * Testing client
+ *
  * Created by aleksandrlazarenko on 03.04.16.
  */
 public class HousingClient {
