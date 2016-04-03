@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a42ca3-263f-4b4f-b0a5-ebf20b3d1902" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/Channel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelCollectionImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelTypeEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/IteratorPatternTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterCaretaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPatterns.iws" />
@@ -31,51 +28,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChannelCollection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelCollection.java">
+      <file leaf-file-name="FileWriterUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelCollectionImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelCollectionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="582">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IteratorPatternTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Iterator/IteratorPatternTest.java">
+      <file leaf-file-name="FileWriterCaretaker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterCaretaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileWriterClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -104,9 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Dollar20Dispenser.kt" />
-        <option value="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Dollar20Dispenser.java" />
-        <option value="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Dollar10Dispenser.java" />
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/ATMDispenseChain.java" />
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Dollar50Dispenser.java" />
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Subject.java" />
@@ -155,6 +141,9 @@
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelIterator.java" />
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/ChannelCollectionImpl.java" />
         <option value="$PROJECT_DIR$/src/BehavioralPatterns/Iterator/IteratorPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterUtil.java" />
+        <option value="$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterCaretaker.java" />
+        <option value="$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterClient.java" />
       </list>
     </option>
   </component>
@@ -261,7 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Iterator" />
+              <option name="myItemId" value="Memento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,27 +274,7 @@
       <recent name="CreationalPatterns.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorPatternTest">
-    <configuration default="false" name="FileSystemClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BehavioralPatterns.Command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Command.FileSystemClient" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DesignPatterns" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FileWriterClient">
     <configuration default="false" name="TVRemote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -374,6 +343,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Iterator.IteratorPatternTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignPatterns" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FileWriterClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BehavioralPatterns.Memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Memento.FileWriterClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -955,19 +944,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileSystemClient" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TVRemote" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ShoppingCartClient" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InterpreterClient" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IteratorPatternTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TVRemote" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ShoppingCartClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InterpreterClient" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IteratorPatternTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FileWriterClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IteratorPatternTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InterpreterClient" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ShoppingCartClient" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TVRemote" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileSystemClient" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FileWriterClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IteratorPatternTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InterpreterClient" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ShoppingCartClient" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TVRemote" />
       </list>
     </recent_temporary>
   </component>
@@ -985,7 +974,7 @@
       <workItem from="1459368532684" duration="970000" />
       <workItem from="1459402106564" duration="1697000" />
       <workItem from="1459583246145" duration="2434000" />
-      <workItem from="1459672756033" duration="7467000" />
+      <workItem from="1459672756033" duration="8114000" />
     </task>
     <task id="LOCAL-00001" summary="Facade pattern added">
       <created>1459584174101</created>
@@ -1033,7 +1022,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16485000" />
+    <option name="totallyTimeSpent" value="17132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1046,7 +1035,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1123,35 +1112,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Mediator/UserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Dollar20Dispenser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/DispenseChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1671,6 +1631,42 @@
         <state relative-caret-position="495">
           <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Memento/FileWriterCaretaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
